@@ -147,7 +147,7 @@ for index, row in df.iterrows():
     table.insert("", "end", text=index, values=(row["Name"], row["Rating"]))
 
 # Add the table to the main window
-table.grid(row=2, columnspan=4)
+table.grid(columnspan=4)
 
 def refresh_table():
     # Read the csv file with new data
