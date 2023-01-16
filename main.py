@@ -148,6 +148,7 @@ for index, row in df.iterrows():
 
 # Add the table to the main window
 table.grid(columnspan=4)
+table.configure(height=500)
 
 def refresh_table():
     # Read the csv file with new data
