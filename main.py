@@ -29,11 +29,11 @@ def on_select(*args):
 def on_add():
     add_window = tk.Toplevel(root)
     add_window.title("Add Movie")
-    title_label = tk.Label(add_window, text="Enter movie title:")
+    title_label = tk.Label(add_window, text="Enter anime title:")
     title_label.grid(row=0, column=0)
     title_entry = tk.Entry(add_window)
     title_entry.grid(row=0, column=1)
-    rating_label = tk.Label(add_window, text="Enter movie rating:")
+    rating_label = tk.Label(add_window, text="Enter rating:")
     rating_label.grid(row=1, column=0)
     rating_spinbox = tk.Spinbox(add_window, from_=0, to=10)
     rating_spinbox.grid(row=1, column=1)
