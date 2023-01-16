@@ -1,4 +1,4 @@
-# imports
+# Imports
 from tkinter import ttk
 import tkinter as tk
 import pandas as pd
